@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #1f2235;
+    font-family: "Baloo Tamma 2", cursive;
+  }
+  
+  /* Main Heading Font */
+  .m-heading {
+    font-family: "Roboto Slab", serif;
+  }
+  .navigation-link{
+      border: 2px solid transparent;
+  }
+  .navigation-link:hover{
+      text-decoration: none;
+      border-bottom: 2px solid #f5ba09;
+      transition:0.5s ease;
+  }
+  .main-container{
+      min-height:100vh;
+      
+  }
+  .main_row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+  .main_row h1{
+      font-size: 5rem;
+  }
+  .main_row img{
+      margin-top: 1cm;
+      width: 5px;;
+      height: 10vh;
+      border-top: 1px solid yellow;
+      
+
+  }
+  #about{
+      background-color: #313552;
+      border-radius: 0.5rem;
+      margin-top: 20px;
+  }
+  #about img{
+      margin-top:100px;
+  }
+  .card{
+      border-bottom: 8px solid #f5ba09;
+  }
+  #Social Media{
+      background-color: #313552;
+  }
+  .media_link{
+      padding: 1rem;
+      max-width: 15rem;
+      margin-left: 1rem;
+      border: 2px solid #f5ba09;
+      border-radius: 0.5rem
+  }
+  hr{
+      border: 1 px dotted rgb(187, 64, 64)
+  }
+  #Resume{
+      
+      font-family: 'poppins',sans-serif;
+      padding-top: 2cm;
+  }
+  h1{
+      margin: 0;
+      font-weight: 400;
+  }
+  h2{
+      margin: 0;
+      font-weight: 400;
+      display: inline;
+  }
+  .box{
+      padding-top: 1cm;
+      background: #fff;
+      
+    
+      margin: 1rem auto;
+      
+  }
+  .header{
+      display: grid;
+      grid-template-columns: 40% 60%;
+  }
+ .header-left{
+     display: inline;
+     justify-items: center;
+     align-items: center;
+     font-size: 2rem;
+
+ }
+ .first-name{
+     font-weight: 400;
+     margin: 0;
+
+ }
+ .last-name{
+     font-weight: 400;
+     margin: 0;
+ }
+ .header-right{
+     width: 100%;
+     display: grid;
+     justify-items: end;
+ }
+ 
+ .header-right p{
+     display: inline;
+ }
+ .icon{
+     color: rgb(190,190,190);
+     font-size: 1.5rem;
+     margin-right: 0.5rem;
+ }
+ .grey{
+     background: rgb(133,133,133);
+     color: #fff;
+     padding: 0.5rem;
+     border-radius: 0.3rem;
+ }
+ table{
+     border:2px solid #000;
+     margin:1rem 0;
+     width: 100%;
+     text-align: center;
+
+ }
+ td,th{
+     border: 1px solid #000;
+     padding: 0.4rem;
+ }
